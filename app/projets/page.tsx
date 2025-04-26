@@ -27,6 +27,24 @@ export default function Projets() {
           </div>
         </div>
         
+        <div className="bg-card p-6 rounded-lg shadow border-t-4 border-purple-500">
+          <h2 className="text-2xl font-semibold">MistralOCR-Converter</h2>
+          <p className="my-4">
+            Application permettant de convertir des documents PDF en texte structuré à l&apos;aide de l&apos;API OCR 
+            de Mistral AI. Prend en charge plusieurs formats de sortie (Markdown, HTML, ZIP) avec une interface 
+            utilisateur conviviale propulsée par Gradio.
+          </p>
+          <p className="text-sm text-muted-foreground mb-4">Technologies : Python, API Mistral AI, OCR, Gradio, Markdown</p>
+          <div className="flex gap-4">
+            <Button size="sm" asChild>
+              <Link href="https://github.com/RadouaneElarfaoui/mistral-ocr-converter" target="_blank">Voir le code</Link>
+            </Button>
+            <Button size="sm" variant="outline" asChild>
+              <Link href="https://colab.research.google.com/github/RadouaneElarfaoui/mistral-ocr-converter/blob/master/mistral_ocr_solution.ipynb" target="_blank">Utilisation</Link>
+            </Button>
+          </div>
+        </div>
+        
         <div className="bg-card p-6 rounded-lg shadow border-t-4 border-blue-400">
           <h2 className="text-2xl font-semibold">Free RDP Google</h2>
           <p className="my-4">
