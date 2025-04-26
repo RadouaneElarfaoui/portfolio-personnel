@@ -27,6 +27,23 @@ export default function Projets() {
           </div>
         </div>
         
+        <div className="bg-card p-6 rounded-lg shadow border-t-4 border-orange-500">
+          <h2 className="text-2xl font-semibold">Anime7-MCP-Tools</h2>
+          <p className="my-4">
+            Assistant MCP (Model Context Protocol) pour faciliter la gestion des animes et des épisodes sur la bdd de l&apos;application mobile Anime Seven. Offre des fonctionnalités de recherche, publication et traduction automatique 
+            des descriptions et titres d&apos;animes.
+          </p>
+          <p className="text-sm text-muted-foreground mb-4">Technologies : TypeScript, Node.js, API Facebook, Traduction, MCP</p>
+          <div className="flex gap-4">
+            <Button size="sm" asChild>
+              <Link href="https://github.com/RadouaneElarfaoui/anime7-mcp-tools" target="_blank">Voir le code</Link>
+            </Button>
+            <Button size="sm" variant="outline" asChild>
+              <Link href="https://github.com/RadouaneElarfaoui/anime7-mcp-tools#référence-des-outils" target="_blank">Documentation</Link>
+            </Button>
+          </div>
+        </div>
+        
         <div className="bg-card p-6 rounded-lg shadow border-t-4 border-purple-500">
           <h2 className="text-2xl font-semibold">MistralOCR-Converter</h2>
           <p className="my-4">
